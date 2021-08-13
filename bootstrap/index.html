@@ -16,7 +16,7 @@
     <title>Bootstrap</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-dark navbar-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">techwithnad</a>
         <button
@@ -58,13 +58,9 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link "
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Contact Us </a
-              >
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                >Contact Us
+              </a>
             </li>
           </ul>
           <form class="d-flex">
@@ -82,6 +78,51 @@
       </div>
     </nav>
 
+    <div class="alert alert-dark align-items-center" role="alert">
+      Welcome to our website
+    </div>
+    <div class="alert alert-primary" role="alert">
+      Here you can read this article
+      <a href="https://www.medium.com" class="alert-link">article link</a>. Give
+      it a click if you like.
+    </div>
+    <div class="alert alert-success d-flex align-items-center" role="alert">
+      <svg
+        class="bi flex-shrink-0 me-2"
+        width="24"
+        height="24"
+        role="img"
+        aria-label="Success:"
+      >
+        <use xlink:href="#check-circle-fill" />
+      </svg>
+      <div>An example success alert with an icon</div>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+      <strong>Hey Welcome!</strong> to my website techwithnad<span class="badge rounded-pill bg-dark">Success</span>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <button type="button" class="btn btn-dark btn-lg">Primary button </button>
+
+
+<button type="button" class="btn btn-link">Link</button>
+
+<button type="button" class="btn btn-outline-primary btn-lg">Click here to submit</button>
+
+<button type="button" class="btn btn-outline-dark btn-sm">Dark</button>
+
+<div class="d-grid gap-2  m-5 ">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-danger" type="button">Button</button>
+</div>
+
+<div class="shadow-lg p-4 m-5 bg-white text-center text-decoration-bold"><b>Large shadow</b></div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
